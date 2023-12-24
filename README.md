@@ -1,1 +1,1 @@
-# accounting-fe
+# Acountting web application
