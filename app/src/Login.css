@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  display: left;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(79deg,#7439db,#C66FBC 48%,rgb(68, 0, 255));
+}
+  
+  
+  .container {
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  
+  .login-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .registration-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  label {
+    text-align: left;
+    padding:0.25rem 0 ;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+ 
+  button {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 12px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  
+  .registration-link {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 0px; 
+    text-align: center;
+  }
+  
+  .registration-link button {
+    background-color: #44bd5c;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px; 
+    text-align: center;
+  }
+  .reg-button{
+    background: none;
+    color: white;
+    text-decoration: underline;
+
+}
+.reg-text {
+  color: rgb(1, 1, 10); 
+  text-decoration: underline; 
+  cursor: pointer; 
+  margin-top: 10px; 
+}
+
+.reg-text:hover {
+  color: darkblue;
+}
