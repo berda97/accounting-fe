@@ -1,6 +1,11 @@
 import axiosInstance from '../axiosInstance';
 
 
+ const  fetchDataUsers = async () => {
+  const response = await axiosInstance.get(`https://localhost:7234/api/users`);
+ return response.data.users
+};
+
  const deleteUsers = async (userId) =>{
   try {
     await axiosInstance.delete(`https://localhost:7234/api/users/${userId}`);
@@ -29,4 +34,4 @@ const UpdateUser = async (updatedUser) => {
 };
 
 
-export {deleteUsers,addUser,UpdateUser};
+export {deleteUsers,addUser,UpdateUser,fetchDataUsers};

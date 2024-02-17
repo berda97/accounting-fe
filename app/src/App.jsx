@@ -5,6 +5,7 @@ import Routes from './routes/index';
 import AuthProvider from './provider/authProvider';
 
 function App() {
+
   return (
     <AuthProvider>
       <Routes />

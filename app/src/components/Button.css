@@ -1,0 +1,76 @@
+.button {
+    width: 200px;
+  }
+  
+  .update-button,
+  .delete-button,
+  .close-button {
+    width: 100%;
+    padding: 10px;
+    filter: brightness(70%);
+    transition: filter 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .put-button {
+    background-color: rgba(59, 227, 21, 0.799);
+    margin: 5px;
+    
+    width: calc(100% - 10px); 
+    max-width: 200px; 
+  }
+  .add-button {
+    background-color: rgba(8, 135, 35, 0.799);
+    margin: 5px;
+    
+    width: calc(100% - 10px); 
+    max-width: 200px; 
+  }
+  .save-button {
+    background-color: rgba(8, 135, 35, 0.799);
+    margin: 5px;
+    
+    width: calc(100% - 10px); 
+    max-width: 200px; 
+  }
+  
+  .close-button {
+    background-color: rgb(234, 64, 7);
+  }
+.update-button{
+    background-color: rgba(27, 130, 164, 0.679)
+}
+  
+  .delete-button {
+    background-color: rgba(59, 227, 21, 0.799);
+  }
+  
+  .delete-button:hover {
+    background-color: #b6ff99;
+    cursor: pointer;
+  }
+  .action-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .action-button:hover {
+    background-color: #45a049;
+  }
+  tfoot button {
+    margin: 5px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .add-new-users-button {
+    color: #45a049;
+    padding: 8px 12px;
+    margin-right: 10px;
+  }

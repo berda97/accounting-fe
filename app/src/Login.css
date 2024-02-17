@@ -6,7 +6,13 @@ body {
   justify-content: center;
   background-image: linear-gradient(79deg,#7439db,#C66FBC 48%,rgb(68, 0, 255));
 }
-  
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
   
   .container {
     width: 300px;
@@ -44,13 +50,13 @@ body {
   
  
   button {
-    background-color: white;
+    background-color: rgb(24, 169, 17);
     color: rgb(0, 0, 0);
     padding: 12px; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
+    width: 65%;
   }
   
   
@@ -73,12 +79,7 @@ body {
     width: 200px; 
     text-align: center;
   }
-  .reg-button{
-    background: none;
-    color: white;
-    text-decoration: underline;
-
-}
+  
 .reg-text {
   color: rgb(1, 1, 10); 
   text-decoration: underline; 

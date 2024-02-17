@@ -14,16 +14,23 @@ axiosInstance.interceptors.request.use((config) => {
     }
     return config;
 })
-axiosInstance.interceptors.response.use((res) => {
-    console.log(res);
+axiosInstance.interceptors.response.use(
+    (response) => {
+        console.log(response);
 
-    if (res.status === 200) {
-        return res;
-    } 
-},
+        switch (response.status) {
+            case 200:
+                return response;
+            case 401:
+                localStorage.removeItem("token");
+                return Promise.reject(response);
+            // case 300:
+            //     return response;
+        }
+    },
     (error) => {
         localStorage.removeItem("token");
         return Promise.reject(error);
     }
-)
+);
 export default axiosInstance;
